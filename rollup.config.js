@@ -99,7 +99,7 @@ export default [
     plugins: [
       ...plugins({
         compilerOptions: {
-          target: 'ES6',
+          target: 'ES5',
           declaration: true,
         },
       }),
@@ -117,7 +117,7 @@ export default [
     plugins: [
       ...plugins({
         compilerOptions: {
-          target: 'ES6',
+          target: 'ES5',
         },
       }),
       terser(),
